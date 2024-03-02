@@ -11,7 +11,7 @@ const wind = document.querySelector('.wind');
 
 const apiData = {
     key: 'c06b5b1fd8064290bc434949242502',
-    baseUri: 'http://api.weatherapi.com/v1/current.json',
+    baseUri: 'https://api.weatherapi.com/v1/current.json',
     query: '',
 };
 
