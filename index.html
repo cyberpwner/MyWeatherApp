@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Weather App</title>
+		<!-- Font-Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="card" style="display: none;">
+				<form id="search" class="search" action="">
+					<input class="search-box" type="text" name="query" id="query" placeholder="Enter a city name"
+						spellcheck="false">
+					<button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+				</form>
+
+				<div class="weather">
+					<div>
+						<img class="weather-icon" src="">
+
+						<div class="temperature"></div>
+						<div class="city"></div>
+					</div>
+
+					<div class="weather-details">
+						<div class="col">
+							<div class="details-icon">
+								<i class="fa fa-solid fa-water fa-2x"></i>
+							</div>
+							<div class="info">
+								<span class="humidity"></span>
+								<span>Humidity</span>
+							</div>
+						</div>
+						<div class="col">
+							<div class="details-icon">
+								<i class="fa fa-solid fa-wind fa-2x"></i>
+							</div>
+							<div class="info">
+								<span class="wind">25 km/h</span>
+								<span>Wind Speed</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- JQuery -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script type="module" src="js/main.js"></script>
+	</body>
+
+</html>
